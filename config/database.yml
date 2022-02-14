@@ -73,7 +73,7 @@ test:
 #   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
 #
 # If the connection URL is provided in the special DATABASE_URL environment
-# variable, Rails will automatically merge its configuration values on top of
+# variable, Rails will automatically merge its configuration values on top 
 # the values provided in this file. Alternatively, you can specify a connection
 # URL environment variable explicitly:
 #
