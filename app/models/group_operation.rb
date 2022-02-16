@@ -1,4 +1,4 @@
 class GroupOperation < ApplicationRecord
-  has_many :operation
-  has_many :group
+  belongs_to :operation
+  belongs_to :group
 end

@@ -18,5 +18,5 @@ operation2 = Tolu.operations.create!(name: 'Bodyshop_cream', amount: 4855.79)
 # inside_transaction = GroupOperation.create!(group: buying, operation: operation)
 # inside_transaction2 = GroupOperation.create!(group: selling, operation: operation2)
 
-first_transaction = GroupOperation.create!(group: buying, operation: operation)
-second_transaction = GroupOperation.create!(group: selling, operation: operation2)
+GroupOperation.create!(group: buying, operation: operation)
+GroupOperation.create!(group: selling, operation: operation2)

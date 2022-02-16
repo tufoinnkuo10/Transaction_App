@@ -1,8 +1,7 @@
 class Operation < ApplicationRecord
   belongs_to :user
-  belongs_to :group_operation
-  has_many :group_operation
-
+  has_many :group_operations
+  
   validates :name, presence: true
   validates :amount, numericality: { greater_than: 0 }
 end
