@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+.loginguru {
+  margin-top: 15rem;
+}
+
+.loginguruu :hover {
+  background-color: blue;
+}
+
+.loginguruu {
+  background-color: grey;
+  box-shadow: wheat;
+}

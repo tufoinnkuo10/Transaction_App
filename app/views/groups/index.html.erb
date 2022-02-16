@@ -1,14 +1,15 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Groups</h1>
+<div class="text-end">
+  <%= link_to "Add category", new_group_path, class: "btn btn-primary" %>
+</div>
+<h1 class="text-center text-primary">Categories</h1>
 
 <div id="groups">
   <% @groups.each do |group| %>
     <%= render group %>
-    <p>
-      <%= link_to "Show this group", group %>
-    </p>
+    <h2>
+      <%= link_to "See categories", group %>
+    </h2>
   <% end %>
 </div>
-
-<%= link_to "New group", new_group_path %>
