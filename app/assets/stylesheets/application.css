@@ -26,3 +26,15 @@
   background-color: grey;
   box-shadow: wheat;
 }
+
+.addcat {
+  background-color: #5fb523;
+  margin: 5rem 0rem;
+  border: 2px solid white;
+  padding: 1rem;
+  color: #fff;
+}
+
+.addcat :hover {
+  background-color: #3778c2;
+}

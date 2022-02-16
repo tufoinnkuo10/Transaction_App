@@ -10,7 +10,8 @@
   <% @operations.each do |operation| %>
     <%= render operation %>
     <p>
-      <%= link_to "Show Available Transaction", operation %>
+      <%= link_to "Available Transactions", operation, class: "btn btn-secondary" %>
     </p>
   <% end %>
 </div>
+<div class="operation_goback"> <%= link_to "Back to categories", groups_path, class: "btn btn-primary" %></div>

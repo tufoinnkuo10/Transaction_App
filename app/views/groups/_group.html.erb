@@ -1,12 +1,30 @@
 <div id="<%= dom_id group %>">
-  <p>
-    <strong>Name:</strong>
+  <%# <p>
+    <strong></strong>
     <%= group.name %>
-  </p>
+  <%# </p>
 
   <p>
-    <strong>Icon:</strong>
+    <strong></strong>
     <%= group.icon %>
-  </p>
+  <%# </p> %> 
+
+
+
+  <div class="card mb-3" style="max-width: 1000px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="...">
+      <%= group.icon %>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text"><%= group.name %></p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+  </div>
 
 </div>

@@ -3,8 +3,10 @@
 <%= render @operation %>
 
 <div>
-  <%= link_to "Edit this Transaction", edit_operation_path(@operation) %> |
-  <%= link_to "Back to Transaction", operations_path %>
-
+  <%= link_to "Edit this Transaction", edit_operation_path(@operation),  class: "btn btn-secondary p-2 mb-3" %> 
   <%= button_to "Destroy this Transaction", @operation, method: :delete %>
+  
+
+  
+  <%= link_to "Back to Transaction", operations_path,  class: "btn btn-primary mt-5" %>
 </div>
