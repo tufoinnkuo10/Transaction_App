@@ -38,3 +38,17 @@
 .addcat :hover {
   background-color: #3778c2;
 }
+
+.operation2 {
+  border: 2px solid rgb(41, 38, 38);
+  border-radius: 2px;
+  margin-bottom: 1rem;
+
+}
+
+.operation3 {
+  font-size: large;
+  font-weight: bolder;
+  padding: 2px;
+  
+}
