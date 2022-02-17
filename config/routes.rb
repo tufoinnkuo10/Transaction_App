@@ -1,12 +1,23 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :operations
+
+
+  root 'groups#home'
+
   resources :groups
-  resources :users
+  resources :operations
 
-  root 'groups#index'
 
-  get 'home', to: 'groups#home'
+  # resources :groups, only: [:index, :new, :create :destroy] do
+  #   resources :operations, only: [:index, :new, :create :destroy]
+  # end
+ 
+
+ 
+
+  
+
+ 
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
