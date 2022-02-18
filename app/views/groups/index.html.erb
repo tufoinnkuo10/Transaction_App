@@ -1,5 +1,5 @@
 <p style="color: green"><%= notice %></p>
-<%= link_to 'Sign out', destroy_user_session_path, :method => :delete, class: "btn btn-primary" %>
+<%= button_to 'Sign out', destroy_user_session_path, :method => :delete, class: "btn btn-primary" %>
 
 <h1 class="text-center text-primary">Categories</h1>
 
@@ -12,5 +12,6 @@
   <% end %>
 </div>
 <div class="addcat d-flex flex-column justify-content-around ">
-  <%= link_to "Add New Category", new_group_path, class: " btn border pb-10" %>
+  <%= link_to "Add New Category", new_group_path, class: " btn border pb-10 mb-3" %>
+
 </div>

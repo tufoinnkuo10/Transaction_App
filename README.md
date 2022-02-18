@@ -1,6 +1,6 @@
 # Project Name
-blog app 
-The Recipe app will be a classic example of a recipe website. We created a fully functional website that will show the list of fodd, recipe and inventory and empower readers to interact with them by adding recipe and liking inventory.
+Transaction App
+This is a mobile Application(responsive), based on managing and analysing different categories of user transactions and checking what was spent on what by a particular user.
 
 ## Built With
 
@@ -19,7 +19,7 @@ The Recipe app will be a classic example of a recipe website. We created a fully
 
 To get a local copy up and running follow these simple example steps.
 
-Run in your terminal `git clone https://github.com/VICTOR-CHUKWU/rails-recipe-app`
+Run in your terminal `git clone https://github.com/tufoinnkuo10/Transaction_App`
 
 ### Install RSpec
 
@@ -28,6 +28,8 @@ To run the tests locally :
 * To instal RSpec for testing please run the following command on your terminal:
 
  ` gem install rspec`
+ 
+ ` run rails rspec spec/models`
 
 ### Helpful links to solve some issues
 
@@ -61,6 +63,8 @@ Give a ⭐️ if you like this project!
 
 - A special thanks to Microverse for inspiring this project. We are indebted to you all at Microverse
 - A special thanks goes to all our peers at Microverse for being there for us.
+
+- Credit to the author of the original design on Behance, [Gregoire Vella](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
 
 ## 📝 License
 

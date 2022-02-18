@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
 
   root 'groups#home'
+ 
+  # get 'public-recipe', to: 'recipe#public'
 
   resources :groups
   resources :operations
