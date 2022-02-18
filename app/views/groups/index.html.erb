@@ -5,7 +5,7 @@
 
 <div id="groups">
   <% @groups.each do |group| %>
-    <%= render group %>
+    <div class="container"><%= render group %></div>
     <h2>
       <%= link_to "view category", operations_path, class: "btn btn-primary" %>
     </h2>
