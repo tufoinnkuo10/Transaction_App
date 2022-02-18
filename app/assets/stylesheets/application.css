@@ -67,3 +67,18 @@
   padding-top: 9rem;
   font-family: serif;
 }
+
+.divpic {
+  display: fle
+  flex-direction: row;
+}
+
+.picc {
+  size: 0ch;
+
+}
+
+.piccc {
+  width: 100px;
+
+}

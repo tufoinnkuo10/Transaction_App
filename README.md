@@ -1,5 +1,7 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Project Name
-Transaction App
+## Transaction App
 This is a mobile Application(responsive), based on managing and analysing different categories of user transactions and checking what was spent on what by a particular user.
 
 ## Built With
@@ -7,6 +9,12 @@ This is a mobile Application(responsive), based on managing and analysing differ
 * Ruby on Rails
 * Rspec
 * Psql
+
+## ERD DIAGRAM
+> ![screenshot](erd_diagram.png)
+
+## RSpec Test
+> ![screenshot](mytest.png)
 
 ## Getting Started
 
@@ -28,7 +36,7 @@ To run the tests locally :
 * To instal RSpec for testing please run the following command on your terminal:
 
  ` gem install rspec`
- 
+
  ` run rails rspec spec/models`
 
 ### Helpful links to solve some issues
