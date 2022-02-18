@@ -9,7 +9,9 @@ Rails.application.routes.draw do
   resources :groups
   resources :operations
 
-  get 'home', to: 'home#index'
+  get 'home', to: 'groups#home'
+
+  get '/group', to: 'group#index'
 
 
   # resources :groups, only: [:index, :new, :create :destroy] do
