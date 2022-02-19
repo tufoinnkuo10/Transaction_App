@@ -18,4 +18,12 @@ RSpec.describe User, type: :model do
   it 'validates the user password match' do
     expect(subject.password).to eql('123456')
   end
+
+  it 'validates the user has email' do
+    expect(subject.email).to eql('john@test.com')
+  end
+
+  it 'validates the user unique password' do
+    expect(subject.password).to eql('123456')
+  end
 end

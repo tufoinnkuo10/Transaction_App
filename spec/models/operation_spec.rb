@@ -25,4 +25,18 @@ RSpec.describe Operation, type: :model do
     subject.amount = -30
     expect(subject).to be_invalid
   end
+
+  it 'test if operation is invalid without name of user' do
+    expect(subject).to be_valid
+    subject.user = nil
+    expect(subject).to be_invalid
+  end
+
+  it 'test if operation has a standard amount' do
+    expect(subject).to be_valid
+    subject.amount = nil
+    expect(subject).to be_invalid
+    subject.amount = -30
+    expect(subject).to be_invalid
+  end
 end

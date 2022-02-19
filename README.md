@@ -16,7 +16,7 @@ This is a mobile Application(responsive), based on managing and analysing differ
 > ![screenshot](erd_diagram.png)
 
 ## RSpec Test
-> ![screenshot](mytest.png)
+> ![screenshot](testt.png)
 
 ## Getting Started
 
