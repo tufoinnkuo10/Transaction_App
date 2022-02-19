@@ -1,6 +1,6 @@
-<%= link_to "<<-Home", home_path, class: "btn btn-primary" %>
+
 <p style="color: green"><%= notice %></p>
-<%= button_to 'Sign out', destroy_user_session_path, :method => :delete, class: "btn btn-primary" %>
+<%= link_to 'Home', user_path(@user.id), class: "btn btn-primary" %>
 
 <h1 class="text-center text-primary">Categories</h1>
 

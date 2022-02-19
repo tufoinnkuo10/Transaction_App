@@ -2,16 +2,15 @@ Rails.application.routes.draw do
   devise_for :users
 
 
-  root 'groups#home'
+  root 'groups#index'
  
   # get 'public-recipe', to: 'recipe#public'
 
   resources :groups
   resources :operations
+  resources :users
 
-  get 'home', to: 'groups#home'
-
-  get '/group', to: 'group#index'
+  get '/home', to: "users#show"
 
 
   # resources :groups, only: [:index, :new, :create :destroy] do
