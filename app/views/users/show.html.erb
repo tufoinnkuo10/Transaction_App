@@ -5,5 +5,5 @@
   
 <div class="loginguru d-flex flex-column justify-content-around d-grid gap-2 d-grid">
   <%= link_to "See Categories", groups_path, class: "btn btn-primary p-2 border" %>
-  <%= button_to 'Sign out', destroy_user_session_path, :method => :delete, class: "aaa btn btn-danger w-100" %>
+  <%= button_to 'Sign out', destroy_user_session_url, method: :delete, class: "aaa btn btn-danger w-100", 'data-no-turbolink' => true %>
 </div>

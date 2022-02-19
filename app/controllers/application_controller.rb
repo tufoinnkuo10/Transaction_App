@@ -7,11 +7,11 @@ class ApplicationController < ActionController::Base
   protected
 
   def after_sign_in_path_for(resource)
-    if session[:user_return_to].nil?
-      groups_path
-    else
-      super
-    end
+    stored_location_for(resource) || groups_path
+  end
+
+  def after_sign_out_path_for(user)
+    new_user_session_url
   end
 
   def update_allowed_parameters

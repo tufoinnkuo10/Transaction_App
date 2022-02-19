@@ -15,9 +15,9 @@
   <body>
   <%= render 'partial/nav' %>
   <div>
-      <% flash.each do |name, msg| -%>
-        <%= content_tag :span, msg, class: name %>
-      <% end -%>
+      <%- flash.each do |name, msg| -%>
+        <%= content_tag :div, msg, id: "flash_#{name}" %>
+      <%- end -%>
     </div>
   <div class="container">
     <%= yield %>

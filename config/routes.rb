@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   resources :users
 
   get '/home', to: "users#show"
+ 
 
 
   # resources :groups, only: [:index, :new, :create :destroy] do
