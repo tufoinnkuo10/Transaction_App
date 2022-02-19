@@ -24,6 +24,10 @@
   color: #fff;
 }
 
+.addcat :hover {
+  background-color: #3778c2;
+}
+
 .loginguruu a :hover {
   background-color: blue;
   color: #fff;
@@ -31,7 +35,6 @@
 }
 
 .loginguruu a {
-  box-shadow: wheat;
   color: black;
   font-weight: bolder;
   text-decoration: none;
@@ -40,13 +43,9 @@
 .addcat {
   background-color: #5fb523;
   margin: 9rem 0rem;
-  border: 2px solid white;
+  border: 2px solid;
   padding: 1rem;
   color: #fff;
-}
-
-.addcat :hover {
-  background-color: #3778c2;
 }
 
 .operation2 {
