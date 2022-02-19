@@ -9,6 +9,8 @@ This is a mobile Application(responsive), based on managing and analysing differ
 * Ruby on Rails
 * Rspec
 * Psql
+## Live
+> [Heroku Live](https://my-transaction-app.herokuapp.com/users/sign_in)
 
 ## ERD DIAGRAM
 > ![screenshot](erd_diagram.png)
