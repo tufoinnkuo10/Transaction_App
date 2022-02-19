@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
     stored_location_for(resource) || groups_path
   end
 
-  def after_sign_out_path_for(user)
+  def after_sign_out_path_for(_user)
     new_user_session_url
   end
 
