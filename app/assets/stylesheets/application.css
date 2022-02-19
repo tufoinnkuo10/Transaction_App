@@ -23,6 +23,10 @@
   color: #fff;
 }
 
+.aaa {
+  margin-bottom: 2rem;
+}
+
 .addcat :hover {
   background-color: #3778c2;
 }
@@ -60,7 +64,7 @@
 }
 
 .apptitle {
-  padding-top: 9rem;
+  padding-top: 3rem;
   font-family: serif;
 }
 

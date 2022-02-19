@@ -3,7 +3,7 @@
 <h2 class="text-center">Welcome <%= render @user %></h2>
 
   
-<div class="loginguru d-flex flex-column justify-content-around d-grid gap-1">
+<div class="loginguru d-flex flex-column justify-content-around d-grid gap-2 d-grid">
   <%= link_to "See Categories", groups_path, class: "btn btn-primary p-2 border" %>
-  <%= button_to 'Sign out', destroy_user_session_path, :method => :delete, class: "btn btn-danger w-100" %>
+  <%= button_to 'Sign out', destroy_user_session_path, :method => :delete, class: "aaa btn btn-danger w-100" %>
 </div>
