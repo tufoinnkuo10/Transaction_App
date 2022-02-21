@@ -1,0 +1,18 @@
+
+<p style="color: green"><%= notice %></p>
+<%= link_to 'Home', user_path(@user.id), class: "btn btn-primary" %>
+
+<h1 class="text-center text-primary">Categories</h1>
+
+<div id="groups">
+  <% @groups.each do |group| %>
+    <div class="container"><%= render group %></div>
+    <h2>
+      <%= link_to "view category", operations_path, class: "btn btn-primary" %>
+    </h2>
+  <% end %>
+</div>
+<div class="addcat d-flex flex-column justify-content-around ">
+  <%= link_to "Add New Category", new_group_path, class: " btn border pb-10 mb-3" %>
+
+</div>

@@ -13,3 +13,72 @@
  *= require_tree .
  *= require_self
  */
+
+.loginguru {
+  margin-top: 15rem;
+  text-decoration: none;
+}
+
+.loginguru :hover {
+  color: #fff;
+}
+
+.aaa {
+  margin-bottom: 2rem;
+}
+
+.addcat :hover {
+  background-color: #3778c2;
+}
+
+.loginguruu a :hover {
+  background-color: blue;
+  color: #fff;
+  text-decoration: none;
+}
+
+.loginguruu a {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.addcat {
+  background-color: #5fb523;
+  margin: 9rem 1px;
+  border: 2px solid;
+  padding: 1rem;
+  color: #fff;
+}
+
+.operation2 {
+  border: 2px solid rgb(41, 38, 38);
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.operation3 {
+  font-size: large;
+  font-weight: bolder;
+  padding: 2px;
+}
+
+.apptitle {
+  padding-top: 3rem;
+  font-family: serif;
+}
+
+.picc {
+  width: 70px;
+  height: 70px;
+}
+
+.piccc {
+  width: 100px;
+}
+
+.group-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+}
